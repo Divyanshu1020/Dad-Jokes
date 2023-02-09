@@ -10,14 +10,17 @@ body{
 }
 .container{
     background-color: rgba(255, 255, 255, .3) ;
-    padding: 40px;
+    /* padding: 40px; */
+    margin: 20px;
     box-shadow: 0 6px 10px rgba(0, 0, 0, .3);
     border-radius: 15px;
-    width: 40%;
+    width: 800px;
+    height: 300px;
     text-align: center;
     color: #13032b;
 }
 .heading{
+    margin: 10px;
     font-size: 33px;
     font-weight: 200;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -35,6 +38,7 @@ body{
     border-radius: 5px;
     cursor: pointer;
     padding: 10px;
+    margin: 20px;
     background:rgba(255, 255, 255, 0.3);;
     border-color: rgba(255, 255, 255, 0.67);
     text-transform: uppercase;
